@@ -1,0 +1,223 @@
+/*Codigo CSS para el nav*/ 
+    
+   nav{
+        width: 100%;
+        height: 63px;
+        background-color: white;
+        box-shadow: 2px 2px 7px gray;
+        position: fixed;
+        opacity: 1;
+        z-index: 2;
+   }
+
+    /*Codigo CSS para el aside bar*/
+    
+    #sidebar {
+        transition: left 0.3s;
+        position: fixed;
+        top: 0;
+        left: -300px; 
+        width: 300px;
+        height: 100vh;
+        background-color: #333;
+        color: #fff;
+        z-index: 9999;
+    }
+
+    .lista{
+        list-style: none;
+        text-align: center;
+        margin-top: 44px;
+        padding-left: 0px!important;
+        margin-bottom: 0px!important;
+    }
+    
+    .alista{
+        margin-top: 20px;
+    }
+
+    .logo{
+        margin-top: 21px!important;
+        margin-left: 93px!important;
+    }
+
+    .creditos{
+        font-size: small!important;
+        text-align: center!important;
+        margin-top: 223px!important;
+        color: darkgray;
+        pointer-events: none;
+    }
+
+    /*Codigo CSS para el footer*/
+
+    footer{
+        width: 100%;
+        height: 86px!important;
+        background-color: white;
+        z-index: 2;
+    }
+
+    /*Codigo CSS para los productos*/
+
+    .body-style {
+        font-family: Arial, sans-serif!important;
+      }
+      
+      .container-style {
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+        height: 125vh!important;
+        padding-top: 10px!important;
+      }
+
+      .container-style2 {
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+        height: 90vh!important;
+        padding-bottom: 10px;
+      }
+      
+      .card-productos {
+        width: 300px;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin: 10px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        z-index: 1;
+        cursor: pointer;
+      }
+      
+      .card-productos:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      
+      .card-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      
+      .card-content {
+        padding: 20px;
+      }
+      
+      .card-title {
+        font-size: 20px;
+      }
+      
+      .card-price {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      .card-description {
+        margin-top: 10px;
+      }
+      
+
+    /*Codigo CSS para pagina mision y vision*/
+    .container{
+        text-align: justify;
+    }
+
+    .pags{
+        margin-left: 25rem;
+        padding-top: 10px;
+    }
+
+    .logoecoin{
+        margin-top: 10px!important;
+        margin-left: 93px!important;
+        width: 105px;
+        height: auto;
+    }
+
+    .carousel {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        margin-top: 57px;
+        margin-left: 46px;
+    }
+    
+    .slide {
+        width: 100%;
+        display: none;
+    }
+    
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .active {
+        display: block;
+    }
+
+    .niño{
+        width: 510px;
+        height: 327px;
+        margin-left: 43px;
+        margin-top: 76px;
+    }
+
+    .mision,
+    .vision{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    /*Codigo CSS para la calculadora*/
+    .calculator {
+        max-width: 399px;
+        position: relative; /* Posiciona la calculadora de forma relativa */
+        margin: 0 auto; /* Centra la calculadora horizontalmente */
+        margin-bottom: 20px; /* Ajusta el espacio entre la calculadora y el contenido del container */
+        padding-top: 77px;
+    }
+    
+    .center-text {
+        text-align: center;
+    }
+    
+    .calculator-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    /*Codigo CSS para varias paginas*/
+    *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    .texto{
+        padding-top: 77px;
+    }
+    
+    .ecoin{
+        width: 105px;
+        height: auto;
+    }
+
+    .paginas{
+        margin-top: 35px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .paginas:hover,
+    .fpaginas:hover{
+        color:greenyellow!important;
+    }
